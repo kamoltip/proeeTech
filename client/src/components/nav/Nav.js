@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import "./Nav.css";
+import "./nav.css";
 import { Menu } from 'semantic-ui-react';
 
 class MenuExampleHeader extends Component {
