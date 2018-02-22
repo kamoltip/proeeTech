@@ -5,19 +5,15 @@ import {
   Route
 } from "react-router-dom";
 
-import 'semantic-ui-css/semantic.min.css';
-
-
-import{
-  Home,
+import{ Home,
   Products,
   Dashboard,
   Pricing,
   Company,
   Documentation,
   Contact,
-  Footer,
-  Nav
+  Footer
+
 } from "./components";
 
 class App extends Component {
@@ -32,8 +28,6 @@ class App extends Component {
             <Route exact path = "/company" component = {Company}/>
             <Route exact path = "/documentation" component = {Documentation}/>
             <Route exact path = "/contact" component = {Contact}/>
-            <Route exact path = "/footer" component = {Footer}/>
-            <Route exact path = "/nav" component = {Nav}/>
           </div>
         </Router>
     );
