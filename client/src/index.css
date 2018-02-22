@@ -14,4 +14,4 @@ body {
   line-height: 1.7;
   padding: 3 rem;
   box-sizing: border-box;
-  background-image: linear-gradient(to right bottom, rgba(0, 255, 0, 0.2), rgba(255, 165, 0, 0.3)), url("../../asset/images/geometric2.jpg"); }
+  background-image: linear-gradient(to right bottom, rgba(0, 255, 0, 0.2), rgba(255, 165, 0, 0.3)), url("./asset/images/geometric2.jpg"); }
