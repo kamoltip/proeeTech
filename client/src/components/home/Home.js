@@ -1,12 +1,21 @@
 import React, { Component } from 'react';
+import "./home.css";
+import Footer from "../footer/Footer.js";
+import Nav from "../nav/Nav.js";
+// import { Menu } from 'semantic-ui-react'
 
 class Home extends Component {
   render() {
     return (
           <div>
+            <Nav />
             <div>
-              <h1>I am home</h1>
+              <header className="home-intro">
+
+              </header>
+
             </div>
+            <Footer />
           </div>
     );
   }

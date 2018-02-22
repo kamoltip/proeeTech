@@ -7,8 +7,14 @@ import {
 
 import{
   Home,
-  About,
-  Dashboard
+  Products,
+  Dashboard,
+  Pricing,
+  Company,
+  Documentation,
+  Contact,
+  Footer,
+  Nav
 } from "./components";
 
 class App extends Component {
@@ -17,8 +23,14 @@ class App extends Component {
         <Router>
           <div>
             <Route exact path = "/" component = {Home}/>
-            <Route exact path = "/about" component = {About}/>
+            <Route exact path = "/products" component = {Products}/>
             <Route exact path = "/dashboard" component = {Dashboard}/>
+            <Route exact path = "/pricing" component = {Pricing}/>
+            <Route exact path = "/company" component = {Company}/>
+            <Route exact path = "/documentation" component = {Documentation}/>
+            <Route exact path = "/contact" component = {Contact}/>
+            <Route exact path = "/footer" component = {Footer}/>
+            <Route exact path = "/nav" component = {Nav}/>
           </div>
         </Router>
     );
