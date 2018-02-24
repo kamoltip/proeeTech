@@ -8,11 +8,7 @@
     "react": "^16.2.0",
     "react-dom": "^16.2.0",
     "react-scripts": "1.1.0",
-<<<<<<< HEAD
-    "semantic-ui-css": "^2.3.0"
-=======
     "semantic-ui-react": "^0.78.2"
->>>>>>> 802c7949f99705765940512c1b127b9b1fd064ce
   },
   "scripts": {
     "start-js": "react-scripts start",
