@@ -1,20 +1,25 @@
 a:link {
   color: purple; }
 
-.unsplash {
-  display: table-footer-group;
-  align-items: center;
-  clear: both;
-  position: absolute;
-  bottom: 0; }
+.footer_box {
+  padding: 0;
+  margin: 0; }
 
 ul {
-  text-align: center; }
+  text-align: center;
+  margin-top: 3rem; }
 
 li {
   list-style: none;
   display: inline-table;
-  padding-bottom: 1rem; }
+  padding-bottom: 1rem;
+  font-size: 1rem;
+  font-weight: 600;
+  color: gray;
+  background-image: linear-gradient(to right, orange, green);
+  -webkit-background-clip: text;
+  color: transparent;
+  text-indent: 1rem; }
   li :not(:last-child) {
     margin-right: 2.5rem; }
 
@@ -22,4 +27,6 @@ li {
   font-size: 1rem;
   line-height: 2rem;
   text-align: center;
-  padding-bottom: 3rem; }
+  color: gray;
+  font-weight: 600;
+  font-size: 0.8rem; }

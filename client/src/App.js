@@ -11,8 +11,7 @@ import{ Home,
   Pricing,
   Company,
   Documentation,
-  Contact,
-  Footer
+  Contact
 
 } from "./components";
 
