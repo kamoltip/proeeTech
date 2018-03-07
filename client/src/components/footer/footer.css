@@ -3,25 +3,23 @@ a:link {
 
 .footer_box {
   padding: 0;
-  margin: 0; }
+  margin: 0;
+  background-image: radial-gradient(orange, #28b485); }
 
-ul {
+.footer_ul {
   text-align: center;
   margin-top: 3rem; }
 
-li {
+.footer-list {
   list-style: none;
+  text-align: center;
   display: inline-table;
   padding-bottom: 1rem;
   font-size: 1rem;
   font-weight: 600;
   color: gray;
-  background-image: linear-gradient(to right, orange, green);
-  -webkit-background-clip: text;
-  color: transparent;
+  margin-right: 1rem;
   text-indent: 1rem; }
-  li :not(:last-child) {
-    margin-right: 2.5rem; }
 
 .copyright {
   font-size: 1rem;

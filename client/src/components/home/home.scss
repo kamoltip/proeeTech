@@ -1,12 +1,15 @@
+$royalblue: #000080;
+
+
 .home-intro {
   width: 100%;
   height: 75vh;
 	background-image: linear-gradient(
-		to right bottom,rgba(royalblue,0.35),
-		rgba(orange,.7)) ,url("../../asset/images/proee.png");
+		to right bottom,rgba($royalblue,0.65),
+		rgba(orange,.5)) ,url("../../asset/images/proee.png");
 	// background-size: cover;
-  background-repeat: repeat-x;
-	background-position: center;
+  background-repeat: no-repeat;
+	background-position: 0px;
 	position: relative;
 	-webkit-clip-path: polygon(0% 0%, 100% 0%, 100% 55vh, 0% 100%);
 	clip-path: polygon(0% 0%, 100% 0%, 100% 55vh, 0% 100%);
@@ -22,7 +25,7 @@ clip-path: polygon(100% 100%, 50% 0%, 100% 95vh, 0% 100%);
 .slogan {
   font-family: 'Oswald', cursive;
   font-style: italic;
-  font-size: 1.5rem;
+  font-size: 1.7rem;
   font-weight: bolder;
   text-align: center;
 }
@@ -33,9 +36,9 @@ p.slogan_p {
   color:gray;
   position: absolute;
   padding-top: 19rem;
-  margin-left: 1.5rem;
-  letter-spacing: .5rem;
-  background-image: linear-gradient(to right, orange, green);
+  margin-left: 1rem;
+  letter-spacing: .3rem;
+  background-image: linear-gradient(to right, orange, $royalblue);
   -webkit-background-clip: text;
   color: transparent;
   animation: moveInLeft 5s ease-out;

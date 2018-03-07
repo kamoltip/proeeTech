@@ -2,7 +2,6 @@ import React, { Component } from "react";
 import "./home.css";
 import Footer from "../footer/Footer.js";
 import MenuExampleBasic from "../nav/Nav.js";
-import {proee} from "../../asset/images/proee.png";
 import {} from "semantic-ui-react";
 
 // import mp4 from "../../asset/images/Bokeh-Tov-mp4.mp4";
@@ -13,10 +12,11 @@ class Home extends Component {
   render() {
     return (
           <div>
-            {/* <MenuExampleBasic /> */}
+            <MenuExampleBasic />
             <div>
               <header className="home-intro">
-                <div className="slogan"><p className="slogan_p">Clever mind,Clever life</p></div>
+                {/* <MenuExampleBasic /> */}
+                <div className="slogan"><p className="slogan_p">Never been easier, Never been better</p></div>
               </header>
             </div>
 
